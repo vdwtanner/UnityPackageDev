@@ -1,0 +1,24 @@
+<MacroListing>
+	<macros>
+		<macro keyName="h" commandName="test">
+			<desc>A useless test macro</desc>
+			<args>
+				<arg type="string" id="filter" name="help_filter" desc="filters the help results">macro</arg>
+				<arg type="float" id="x" name="X">1</arg>
+				<arg type="float" id="y" name="Y">1</arg>
+				<arg type="float" id="z" name="Z">1</arg>
+			</args>
+			<command>help %filter</command>
+			<command>spawn.cube %x %y %z</command>
+		</macro>
+		<macro keyName="[1]" commandName="selectionTest">
+			<desc>
+				Selects the local player and then does some stuff.
+				And Oh my gosh here's a new line.
+				Is that another one???
+			</desc>
+			<command>select.nameSelect GameObject</command>
+			<command>selection.detailed true</command>
+		</macro>
+	</macros>
+</MacroListing>

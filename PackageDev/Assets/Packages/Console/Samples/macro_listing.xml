@@ -1,0 +1,14 @@
+<MacroListing>
+  <macros>
+    <macro keyName="h" commandName="test">
+      <args>
+        <arg type="string" id="filter" name="help_filter">macro</arg>
+        <arg type="float" id="x" name="X">1</arg>
+        <arg type="float" id="y" name="Y">1</arg>
+        <arg type="float" id="z" name="Z">1</arg>
+      </args>
+      <command>help %filter</command>
+      <command>spawn.cube %x %y %z</command>
+    </macro>
+  </macros>
+</MacroListing>
